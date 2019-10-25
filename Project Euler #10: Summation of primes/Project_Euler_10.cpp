@@ -13,8 +13,6 @@ int main() {
 
     bool primes[1000001];
 
-    memset(primes, true, sizeof(primes));
-
     primes[0] = primes[1] = false;
 
     for(ll i = 2; i <= 1000; i++) {
